@@ -1,0 +1,20 @@
+/* ItemCard.css */
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Media Query for Medium Devices (tablets) */
+@media (max-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+/* Media Query for Small Devices (phones) */
+@media (max-width: 576px) {
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
